@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setMoveButton();
     }
     public  void setMoveButton(){
-        Button button = findViewById(R.id.MOVE_BUTTON_id);
+        Button button = findViewById(R.id.first_move_button);
         button.setOnClickListener(v -> {
             Intent intent = new Intent(this,SecondActivity.class);
            startActivity(intent);

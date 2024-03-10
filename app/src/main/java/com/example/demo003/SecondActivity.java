@@ -17,10 +17,10 @@ public class SecondActivity extends AppCompatActivity {
     }
 
     public void SetButtonMove() {
-        Button button = findViewById(R.id.MOVE_button_id);
+        Button button = findViewById(R.id.move_button_id);
         button.setOnClickListener(v -> {
-            Intent intent1 = new Intent(this, TriedAtivity.class);
-            startActivities(intent1);
+            Intent intent = new Intent(this, ThirdActivity.class);
+            startActivity(intent);
         });
     }
 }
